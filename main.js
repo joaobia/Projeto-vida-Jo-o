@@ -15,7 +15,7 @@ textos[i].classList.add("ativo");
 };
 }
 
-const contaores = document.querySelectorAll(".contador");
+const contadores = document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date("2026-10-30T00:00:00");
 
 let tempoAtual = new Date();
