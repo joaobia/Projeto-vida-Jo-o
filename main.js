@@ -41,10 +41,9 @@ return (dias + " dias " + horas + " horas " + minutos + " minutos " + segundos +
 }
 
 function atualizaCronometro(){
-    for(let i=0; i < contadores.length; i++)(
-        contadores[i]. textContent = calculaTempo(tempos)[i];
-
-    )
+    for(let i=0; i < contadores.length; i++){
+        contadores[i]. textContent = calculaTempo(tempos[i]);
+    }
 }
 function comecaCronometro (){
     atualizaCronometro();
